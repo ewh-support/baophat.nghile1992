@@ -711,15 +711,20 @@ tragop_header {
 
 .sanpham_chay_ngang li {
     list-style: none;
-    margin: 0px 0 15px 0;
-    padding: 0px 10px;
-    display: inline-block;
+    margin: 0px 4.2% 30px;
+    padding: 10px 30px;
+    float: left;
     text-align: center;
+    border: 1px solid #f4ca49;
+}
+
+.sanpham_chay_ngang li a {
+    font-size: 22px;
 }
 
 .sanpham_chay_ngang li img {
-    width: 180px;
-    height: 240px;
+    width: 260px;
+    height: 300px;
 }
 
 .ngang_300 .giavnd_cot {
@@ -1002,9 +1007,20 @@ height:200px
 }
 
 .bang_chi_tiet_san_pham .div_gia {
-    padding: 10px 0px;
-    padding-top: 0px;
-    background: url(../../templates/images/dot.gif) bottom repeat-x
+    padding: 0 0px 15px;
+    background: url(../../templates/images/dot.gif) bottom repeat-x;
+    margin-top: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #f4ca49;
+}
+
+.div_muahang p {
+    font-size: 18px;
+}
+
+.div_muahang #soluong {
+    height: 25px;
+    padding-right: 10px;
 }
 
 .deal_nho .dash {
@@ -1387,8 +1403,12 @@ height:200px
 }
 
 .div_anh {
-    background: #ededed;
-    border: 1px solid #ccc
+    border: 1px solid #f4ca49;
+    padding: 10px 0 30px;
+}
+
+.chitiet_sanpham_bangchia_cell_anh .chu_zoom {
+    font-size: 16px;
 }
 
 .div_anh_chi_tiet {
@@ -1400,7 +1420,6 @@ height:200px
 }
 
 .anh_khac_div {
-    border-top: 1px solid #CCCCCC;
     padding: 4px;
 }
 
@@ -2058,6 +2077,7 @@ height:200px
     padding: 7px 0px 7px 5px;
     background-position: 10px 10px;
     background-repeat: no-repeat;
+    font-size: 18px;
 }
 
 .lvl1_menutrai:first-child a {
@@ -4990,8 +5010,8 @@ body {
     line-height: inherit;
     color: #555555;
     background-color: none;
-    font-size: 16px;
-    padding: 10px 0px 10px 5px;
+    font-size: 22px;
+    padding: 5px 0px 10px 5px;
     display: block;
     background: none;
     background-color: none
@@ -5278,8 +5298,7 @@ body {
     background: none;
     padding: 0px;
     margin: 0px;
-    ;
-    background-color: #FFFFFF none
+    background-color: #fff;
 }
 
 .box_wrap_1499 .box_lop1 {
@@ -5287,7 +5306,7 @@ body {
 }
 
 .box_wrap_1499 .box_lop2 {
-    padding: 10px;
+    padding: 20px 10px;
     background: none;
 }
 
@@ -6046,6 +6065,15 @@ body {
 
 .sanpham_cell {
     padding-bottom: inherit
+}
+
+.sanpham_cell img {
+    height: 240px;
+    width: 210px;
+}
+
+.sanpham_cell h2 {
+    font-size: 20px;
 }
 
 .sanpham_gia_dathang {
