@@ -1115,7 +1115,8 @@ height:200px
 
 .box_timkiemnangcao .tk_input {
     width: 90%;
-    font-size: 12px;
+    font-size: 16px;
+    padding: 5px 0;
 }
 
 .nut_xem_toan_bo_trang_chu {
